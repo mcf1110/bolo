@@ -1,0 +1,48 @@
+@keyframes squish{
+    0%{
+       transform: scale(1);
+    }
+    50%{
+       transform: scale(1.2, 0.8);
+    }
+    100%{
+       transform: scale(1);
+    }
+}
+#cart{
+    img.anim{
+        animation: squish .5s;
+    }
+}
+
+#cart-info{
+    position: absolute;
+    z-index: 5;
+    top: 6em;
+    right: 2em;
+    background: $white;
+    @include box-shadow;
+    border-radius: $p;
+    min-width: $h1 * 1.618 * 1.618;
+    .cart-header{
+        font-weight: bold;
+        background: $dark-blue;
+        color: $white;
+        padding: $small 1em;
+        border-radius: $p $p 0 0;
+    }
+    .cart-list{
+        .cart-item{
+           padding: $small 1em;
+           border-top: darken($white, 5%) thin solid;
+        }
+    }
+    //Transicao
+    transform: scaleY(0);
+    transform-origin: top center;
+    @include transition;
+    
+    &.show{
+        transform: scaleY(1);
+    }
+}

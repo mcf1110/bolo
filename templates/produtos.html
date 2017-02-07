@@ -1,0 +1,9 @@
+<div class="container">
+    <h1>Produtos</h1>
+    <personalizado></personalizado>
+    <div class="row">
+        <div ng-repeat="bolo in bolos track by bolo.slug" class="col-xs-6 col-md-4">
+            <Bolo info="bolo"></Bolo>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+#personalizado {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: rgba(0, 0, 0, .75);
+    opacity: 1;
+    visibility: visible;
+    @include transition;
+    .modal {
+        @include transition;
+        max-width: 64em;
+        h3 {
+            background: $orange;
+            border-radius: $extrasmall $extrasmall 0 0;
+            padding: .25em;
+            color: $white;
+            margin-bottom: 0;
+        }
+        .container {
+            background: $white;
+            border-radius: 0 0 $p $p;
+            #form-personalizado {
+                margin: $p;
+                .row {
+                    margin: $h4 0;
+                }
+                .wrap-dd-select {
+                    position: relative;
+                    .selected {
+                        border: darken($white, 5%) thin solid;
+                        background: darken($white, 2%);
+                        padding: .25em .5em;
+                        border-radius: $extrasmall;
+                        display: inline-block;
+                        width: 100%;
+                        min-height: 2em;
+                        box-sizing: border-box;
+                        cursor: pointer;
+                    }
+                    .dropdown {
+                        transform-origin: top;
+                        transform: scaleY(0);
+                        @include transition;
+                        position: absolute;
+                        width: 100%;
+                        padding: 0;
+                        list-style: none;
+                        margin: 0;
+                        background: $white;
+                        @include box-shadow;
+                        border-radius: $p;
+                        max-height: $h1 * 1.618;
+                        overflow-y: auto;
+                        z-index: 15;
+                        li {
+                            a {
+                                color: $text;
+                                padding: $small 1em;
+                                border-top: darken($white, 5%) thin solid;
+                                cursor: pointer;
+                                display: block;
+                                width: 100%;
+                                box-sizing: border-box;
+                            }
+                            &:hover {
+                                background: $blue;
+                                a {
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                    &.active {
+                        outline: none;
+                        .dropdown {
+                            transform: scaleY(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.hide {
+        opacity: 0;
+        visibility: hidden;
+        .modal{
+            transform: translateY(-100%);
+        }
+    }
+}

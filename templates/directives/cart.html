@@ -1,0 +1,9 @@
+<div class="cart-container col-xs-2">
+    <div class="box"><button ng-click="handleClick()" class="btn" id="cart"><img ng-class="{anim: anim}"src="svg/cart.svg" alt="Carrinho"></button></div>
+</div>
+<div id="cart-info" class="center-xs" ng-class="{show : showCart}">
+    <div class="cart-header">Carrinho ({{items.length}})</div>
+    <div class="cart-list">
+        <cart-item ng-repeat="item in items" index="$index" item="item"/>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+@include resp-xs(){
+    .hidden-xs {
+        display: none;
+    }
+    .block-xs {
+        display: block;
+    }
+    .inline-xs {
+        display: inline;
+    }
+    .inline-block-xs {
+        display: inline-block;
+    }
+}

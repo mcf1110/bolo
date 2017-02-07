@@ -1,0 +1,41 @@
+.btn {
+    border: 0;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    cursor: pointer;
+    margin: 0 auto;
+    &::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+    background: $blue;
+    color: $white;
+    padding: $small;
+    border-radius: $small;
+    box-shadow: 0 $extrasmall $dark-blue;
+    margin-bottom: $small;
+    @include transition;
+    &:focus {
+        outline: none;
+    }
+    &:active {
+        background: $dark-blue;
+        box-shadow: 0 $extrasmall/1.618 darken($dark-blue, 15%) !important;
+        transform: translateY($extrasmall/1.618);
+    }
+    &:hover {
+        background: $dark-blue;
+        box-shadow: 0 $extrasmall darken($dark-blue, 15%);
+    }
+    
+    &.btn-large{
+        margin: $h4 auto;
+        font-size: $h4;
+    }
+    
+    img{
+        max-height: $h4;
+        margin: 0 $extrasmall;
+    }
+}

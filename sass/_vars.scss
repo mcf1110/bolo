@@ -1,0 +1,43 @@
+$orange: #F68E5F;
+$dark-orange: #F76C5E;
+$yellow: #F5DD90;
+$dark-blue: #324376;
+$blue: #586BA4;
+$white: #FEFEFE;
+
+//Type Scale
+$p: 1em;
+$h1: 6.854em;
+$h2: 4.236em;
+$h3: 2.618em;
+$h4: 1.618em;
+$small: 0.618em;
+$extrasmall: $small / 1.618;
+$text: #333;
+
+$xs: 48em;
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+@mixin title {
+    font-family: 'Pacifico', cursive;
+}
+
+@mixin font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@mixin transition($time: .25s) {
+    transition: all $time ease;
+}
+
+@mixin box-shadow($opacity: .25){
+    box-shadow: 0 0 $p rgba(0,0,0, $opacity);
+}
+
+@mixin resp-xs(){
+    @media only screen and (max-width: $xs) {
+        @content;
+    }
+}

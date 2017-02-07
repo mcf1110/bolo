@@ -1,0 +1,8 @@
+<div class="cart-item">
+    <div class="row middle-xs">
+        <div class="col-xs"><bolo-svg info="item"></bolo-svg></div>
+        <div class="col-xs">{{item.nome}}</div>
+        <div class="col-xs">R{{item.preco | currency}}</div>
+        <div class="pointer" ng-click="removeItem()">&times</div>
+    </div>
+</div>

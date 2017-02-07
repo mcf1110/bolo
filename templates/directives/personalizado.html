@@ -1,0 +1,44 @@
+<div class="row">
+    <button ng-click="toggleModal()" class="btn btn-large">Criar bolo personalizado</button>
+</div>
+<div id="personalizado" ng-class="{hide: hide}">
+    <div class="modal container">
+        <h3>Personalize seu bolo <span class="pull-right pointer" ng-click="toggleModal()">&times</span></h3>
+        <div class="container">
+            <div class="row middle-xs">
+                <div class="col-sm-5 col-xs-6 col-xs-offset-3 col-sm-offset-1">
+                    <bolo-svg info="bolo"></bolo-svg>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div id="form-personalizado" class="middle-xs row">
+                        <div class="col-xs">
+                            <div class="row">
+                                <div class="text-right col-xs">Cobertura</div>
+                                <div class="col-xs">
+                                    <div dropdown-select="sabores.coberturas" dropdown-model="bolo.cobertura" dropdown-item-label="nome">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="text-right col-xs">Massa</div>
+                                <div class="col-xs">
+                                    <div dropdown-select="sabores.massas" dropdown-model="bolo.massa" dropdown-item-label="nome">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="text-right col-xs">Recheio</div>
+                                <div class="col-xs">
+                                    <div dropdown-select="sabores.recheios" dropdown-model="bolo.recheio" dropdown-item-label="nome">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Total : R{{getPreco() | currency}}</h4>
+                    <button ng-click="add()" class="btn">Adicionar ao carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

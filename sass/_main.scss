@@ -1,0 +1,13 @@
+.hero{
+    img{
+        max-width: 37em;
+    }
+    background: linear-gradient(180deg, $orange, $dark-orange);
+    color: $white;
+    h1{
+        text-shadow: 5px 5px $dark-orange;
+        @include resp-xs{
+            font-size: $h2;
+        }
+    }
+}

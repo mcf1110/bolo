@@ -1,0 +1,10 @@
+<div ng-click="turn()" class="bolo" ng-class="{turn: turned}">
+    <div class="frente">
+        <bolo-svg info="info"></bolo-svg>
+    </div>
+    <div class="tras">
+        <h2>{{info.nome}}</h2>
+        <p class="preco">{{info.preco | currency:"R$"}}</p>
+        <button class="adicionar" ng-click="addToCart(info)" >+</button>
+    </div>
+</div>

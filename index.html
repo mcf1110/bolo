@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teste</title>
+    <base href="/bolo/">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    
+</head>
+
+<body ng-app="app">
+    <header>
+        <div class="row  middle-xs">
+            <div class="col-sm">
+                <div class="logo box">
+                    <h4><img src="svg/cupcake.svg"></img>Confeitaria</h4>
+                </div>
+            </div>
+            <div class="col-sm end-sm">
+                <div class="row middle-xs ">
+                    <div class="col-sm">
+                        <nav class="box">
+                            <ul>
+                                <li><a active-link class="active" href="home">Home</a></li>
+                                <li><a active-link href="produtos">Produtos</a></li>
+                                <li><a active-link href="sobre">Sobre</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <cart />
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <ng-view></ng-view>
+    </main>
+    <footer>
+        <p>Feito por Matheus Fernandes</p>
+        <p>Embora os bolos pareçam deliciosos, esta é uma loja fictícia. Desculpe.</p>
+    </footer>
+
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-dropdowns/dist/angular-dropdowns.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

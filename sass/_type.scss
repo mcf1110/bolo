@@ -1,0 +1,44 @@
+p {
+    margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+    @include title;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: $h1;
+}
+
+h2 {
+    font-size: $h2;
+}
+
+h3 {
+    font-size: $h3;
+}
+
+h4 {
+    font-size: $h4;
+}
+
+small,
+.font_small {
+    font-size: $small;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+.colored-text{
+    color: $blue;
+}

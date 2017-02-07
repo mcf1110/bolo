@@ -1,0 +1,186 @@
+[
+  {
+    "nome": "Brigadeiro",
+    "slug": "brigadeiro",
+    "preco": 25.9,
+    "cobertura": {
+      "nome": "Brigadeiro",
+      "slug": "brigadeiro",
+      "cor": "7B3E19"
+    },
+    "massa": {
+      "nome": "Chocolate",
+      "slug": "chocolate",
+      "cor": "231C07"
+    },
+    "recheio": {
+      "nome": "Brigadeiro",
+      "slug": "brigadeiro",
+      "cor": "7B3E19"
+    }
+  },
+  {
+    "nome": "Branco",
+    "slug": "branco",
+    "preco": 26.9,
+    "cobertura": {
+      "nome": "Brigadeiro branco",
+      "slug": "brigadeiro-branco",
+      "cor": "FFE484"
+    },
+    "massa": {
+      "nome": "Branca",
+      "slug": "branca",
+      "cor": "F3E5AB"
+    },
+    "recheio": {
+      "nome": "Brigadeiro branco",
+      "slug": "brigadeiro-branco",
+      "cor": "FFE484"
+    }
+  },
+  {
+    "nome": "Doce de leite",
+    "slug": "doce-de-leite",
+    "preco": 28.9,
+    "cobertura": {
+      "nome": "Doce de leite",
+      "slug": "doce-de-leite",
+      "cor": "D18E32"
+    },
+    "massa": {
+      "nome": "Branca",
+      "slug": "branca",
+      "cor": "F3E5AB"
+    },
+    "recheio": {
+      "nome": "Doce de leite",
+      "slug": "doce-de-leite",
+      "cor": "D18E32"
+    }
+  },
+  {
+    "nome": "Cenoura",
+    "slug": "cenoura",
+    "preco": 25.9,
+    "cobertura": {
+      "nome": "Brigadeiro",
+      "slug": "brigadeiro",
+      "cor": "7B3E19"
+    },
+    "massa": {
+      "nome": "Cenoura",
+      "slug": "cenoura",
+      "cor": "EC7D10"
+    },
+    "recheio": {
+      "nome": "Brigadeiro",
+      "slug": "brigadeiro",
+      "cor": "7B3E19"
+    }
+  },
+  {
+    "nome": "Prestígio",
+    "slug": "prestigio",
+    "preco": 25.9,
+    "cobertura": {
+      "nome": "Beijinho",
+      "slug": "beijinho",
+      "cor": "F5DD90"
+    },
+    "massa": {
+      "nome": "Chocolate",
+      "slug": "chocolate",
+      "cor": "231C07"
+    },
+    "recheio": {
+      "nome": "Beijinho",
+      "slug": "beijinho",
+      "cor": "F5DD90"
+    }
+  },
+  {
+    "nome": "Sensação",
+    "slug": "sensacao",
+    "preco": 31.9,
+    "cobertura": 
+    {
+      "nome": "Bicho de pe",
+      "slug": "bicho-de-pe",
+      "cor": "F6828C"
+    },
+    "massa": {
+      "nome": "Chocolate",
+      "slug": "chocolate",
+      "cor": "231C07"
+    },
+    "recheio": 
+    {
+      "nome": "Bicho de pe",
+      "slug": "bicho-de-pe",
+      "cor": "F6828C"
+    }
+  },
+  {
+    "nome": "Cookies n cream",
+    "slug": "cookies-n-cream",
+    "preco": 31.9,
+    "cobertura": {
+      "nome": "Creme de oreo",
+      "slug": "creme-de-oreo",
+      "cor": "FFF4CE"
+    },
+    "massa": {
+      "nome": "Chocolate",
+      "slug": "chocolate",
+      "cor": "231C07"
+    },
+    "recheio": {
+      "nome": "Creme de oreo",
+      "slug": "creme-de-oreo",
+      "cor": "FFF4CE"
+    }
+  },
+  {
+    "nome": "Floresta Negra",
+    "slug": "floresta-negra",
+    "preco": 31.9,
+    "cobertura": {
+      "nome": "Cereja",
+      "slug": "Cereja",
+      "cor": "B50E43"
+    },
+    "massa": {
+      "nome": "Chocolate",
+      "slug": "chocolate",
+      "cor": "231C07"
+    },
+    "recheio": 
+    {
+      "nome": "Chantilly",
+      "slug": "chantilly",
+      "cor": "F5F1F1"
+    }
+  },
+  {
+    "nome": "Frutas Vermelhas",
+    "slug": "frutas-vermelhas",
+    "preco": 34.9,
+    "cobertura": {
+      "nome": "Frutas vermelhas",
+      "slug": "frutas-vermelhas",
+      "cor": "8C003A"
+    },
+    "massa": {
+      "nome": "Branca",
+      "slug": "branca",
+      "cor": "F3E5AB"
+    },
+    "recheio": 
+    {
+      "nome": "Chantilly",
+      "slug": "chantilly",
+      "cor": "F5F1F1"
+    }
+  }
+]

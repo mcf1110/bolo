@@ -1,0 +1,124 @@
+{
+  "coberturas": [
+    {
+      "nome": "Brigadeiro",
+      "slug": "brigadeiro",
+      "cor": "7B3E19",
+      "preco" : 8
+    },
+    {
+      "nome": "Brigadeiro branco",
+      "slug": "brigadeiro-branco",
+      "cor": "FFE484",
+      "preco" : 8
+    },
+    {
+      "nome": "Doce de leite",
+      "slug": "doce-de-leite",
+      "cor": "D18E32",
+      "preco" : 10
+    },
+    {
+      "nome": "Bicho de pe",
+      "slug": "bicho-de-pe",
+      "cor": "F6828C",
+      "preco" : 10
+    },
+    {
+      "nome": "Beijinho",
+      "slug": "beijinho",
+      "cor": "F5DD90",
+      "preco" : 11
+    },
+    
+    {
+      "nome": "Creme de oreo",
+      "slug": "creme-de-oreo",
+      "cor": "FFF4CE",
+      "preco" : 13
+    },
+    {
+      "nome": "Chantilly",
+      "slug": "chantilly",
+      "cor": "F5F1F1",
+      "preco" : 7
+    },
+    {
+      "nome": "Cereja",
+      "slug": "Cereja",
+      "cor": "B50E43",
+      "preco" : 14
+    },
+    {
+      "nome": "Frutas vermelhas",
+      "slug": "frutas-vermelhas",
+      "cor": "8C003A",
+      "preco" : 14
+    }
+  ],
+  "massas": [
+    {
+      "nome": "Chocolate",
+      "slug": "chocolate",
+      "cor": "231C07",
+      "preco" : 10
+    },
+    {
+      "nome": "Branca",
+      "slug": "branca",
+      "cor": "F3E5AB",
+      "preco" : 10
+    },
+    {
+      "nome": "Cenoura",
+      "slug": "cenoura",
+      "cor": "EC7D10",
+      "preco" : 10
+    }
+  ],
+  "recheios": [
+    {
+      "nome": "Brigadeiro",
+      "slug": "brigadeiro",
+      "cor": "7B3E19",
+      "preco" : 8
+    },
+    {
+      "nome": "Brigadeiro branco",
+      "slug": "brigadeiro-branco",
+      "cor": "FFE484",
+      "preco" : 8
+    },
+    {
+      "nome": "Doce de leite",
+      "slug": "doce-de-leite",
+      "cor": "D18E32",
+      "preco" : 9
+    },
+    {
+      "nome": "Bicho de pe",
+      "slug": "bicho-de-pe",
+      "cor": "F6828C",
+      "preco" : 10
+    },
+    {
+      "nome": "Beijinho",
+      "slug": "beijinho",
+      "cor": "F5DD90",
+      "preco" : 11
+    },
+    
+    {
+      "nome": "Creme de oreo",
+      "slug": "creme-de-oreo",
+      "cor": "FFF4CE",
+      "preco" : 12
+    },
+    {
+      "nome": "Chantilly",
+      "slug": "chantilly",
+      "cor": "F5F1F1",
+      "preco" : 8
+    }
+  ]
+}
