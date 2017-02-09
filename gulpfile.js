@@ -5,7 +5,9 @@ var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var ngAnnotate = require('gulp-ng-annotate');
-var sourcemaps = require('gulp-sourcemaps')
+var sourcemaps = require('gulp-sourcemaps');
+var browserify = require('gulp-browserify');
+var rename = require('gulp-rename');
 
 gulp.task('js', function () {
   gulp.src(['src/**/module.js', 'src/**/*.js'])
@@ -14,7 +16,13 @@ gulp.task('js', function () {
       .pipe(ngAnnotate())
       .pipe(uglify())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('.'))
+    .pipe(gulp.dest('.'));
+    
+    gulp.src('main.js')
+        .pipe(browserify())
+        .pipe(uglify())
+        .pipe(rename('bundle.js'))
+        .pipe(gulp.dest('.'))
 })
  
 gulp.task('sass', function () {
